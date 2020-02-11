@@ -1,3 +1,5 @@
+![ArthurDoc Logo](https://github.com/primesoft-polska/arthurdoc-examples/images/arturdoc_logo.png "ArthurDoc Logo")
+
 # ArthurDoc
 
 ## About
