@@ -1,4 +1,4 @@
-![ArthurDoc Logo](https://github.com/primesoft-polska/arthurdoc-examples/images/arturdoc_logo.png "ArthurDoc Logo")
+![ArthurDoc Logo](https://github.com/primesoft-polska/arthurdoc-examples/blob/master/images/arturdoc_logo.png?raw=true "ArthurDoc Logo")
 
 # ArthurDoc
 
