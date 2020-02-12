@@ -1,0 +1,12 @@
+{
+  "endpoints": {
+    "createJobPath": "/api/job_new",
+    "jobStatusPath": "/api/job_status/",
+    "jobResultPath": "/api/job_result/"
+  },
+  "clientConfig": {
+    "authorizationHeader": "",
+    "authorizationToken": "",
+    "baseUrl": ""
+  } 
+}
