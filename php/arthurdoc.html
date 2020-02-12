@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ArthurDoc</title>
+</head>
+<body>
+<h1>ArthurDoc</h1>
+<form action="/arthurdoc.php" method="POST" accept-charset="UTF-8">
+    <div>
+        <table bgcolor="silver">
+            <tr>
+                <td>Task name:</td>
+                <td><input type="text" name="TaskName" required></td>
+            </tr>
+            <tr>
+                <td>Template guid:</td>
+                <td><input type="text" name="TemplateGuid" required></td>
+            </tr>
+            <tr>
+                <td>File:</td>
+                <td><textarea name="File" cols="50" rows="10" required></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="FileType" value="json" checked> json<br>
+                </td>
+                <td>
+                    <input type="radio" name="FileType" value="base64"> base64<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="MergePdf" value="Car"> Merge Pdf
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+</body>
+</html>

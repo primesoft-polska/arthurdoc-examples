@@ -1,0 +1,12 @@
+{
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArturDoc\\": "src/"
+    }
+  }
+}
