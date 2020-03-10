@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GDK>
+  <GDK_ROW RowNumber="1">
+    <Client_City>Selden</Client_City>
+    <Client_Name>Carnegie Mondover</Client_Name>
+    <Client_Street_Address>1225 Grove Street</Client_Street_Address>
+    <Client_ZIP_Code>11784</Client_ZIP_Code>
+    <Company_City>Poznań</Company_City>
+    <Company_Email>biuro@primesoft.pl</Company_Email>
+    <Company_Name>Primesoft Polska</Company_Name>
+    <Company_Phone>61 833 17 72</Company_Phone>
+    <Company_Street_Address>Ul. Piątkowska 161</Company_Street_Address>
+    <Company_ZIP_Code>60-650</Company_ZIP_Code>
+    <Invoice_date>12.04.2018</Invoice_date>
+    <Invoice_number>34042018</Invoice_number>
+    <SALES_TAX>$893.60</SALES_TAX>
+    <SHIPPING>$500.00</SHIPPING>
+    <SUBTOTAL>$11,170.00</SUBTOTAL>
+    <TOTAL>$12,563.60</TOTAL>
+    <RECORDSET RecordsetNumber="1">
+      <DESCRIPTION>Pellentesque habitant morbi tristique senectus</DESCRIPTION>
+      <QUANTITY>25</QUANTITY>
+      <TOTAL>$6,250.00</TOTAL>
+      <UNIT_PRICE>$250.00</UNIT_PRICE>
+    </RECORDSET>
+    <RECORDSET RecordsetNumber="2">
+      <DESCRIPTION>Et netus et malesuada fames ac turpis egestas</DESCRIPTION>
+      <QUANTITY>8</QUANTITY>
+      <TOTAL>$1.920.00</TOTAL>
+      <UNIT_PRICE>$240.00</UNIT_PRICE>
+    </RECORDSET>
+    <RECORDSET RecordsetNumber="3">
+      <DESCRIPTION>Sed velit urna, interdum vel</DESCRIPTION>
+      <QUANTITY>6</QUANTITY>
+      <TOTAL>$3,000.00</TOTAL>
+      <UNIT_PRICE>$500.00</UNIT_PRICE>
+    </RECORDSET>
+  </GDK_ROW>
+  <GDK_ROW RowNumber="2">
+    <Client_City>Fort Bragg</Client_City>
+    <Client_Name>Derrick T Cameron</Client_Name>
+    <Client_Street_Address>2827  Rose Street</Client_Street_Address>
+    <Client_ZIP_Code>95437</Client_ZIP_Code>
+    <Company_City>Poznań</Company_City>
+    <Company_Email>biuro@primesoft.pl</Company_Email>
+    <Company_Name>Primesoft Polska</Company_Name>
+    <Company_Phone>61 833 17 72</Company_Phone>
+    <Company_Street_Address>Ul. Piątkowska 161</Company_Street_Address>
+    <Company_ZIP_Code>60-650</Company_ZIP_Code>
+    <Invoice_date>22.05.2017</Invoice_date>
+    <Invoice_number>35012300</Invoice_number>
+    <SALES_TAX>$893.60</SALES_TAX>
+    <SHIPPING>$1000.00</SHIPPING>
+    <SUBTOTAL>$12,170.00</SUBTOTAL>
+    <TOTAL>$12,563.60</TOTAL>
+    <RECORDSET RecordsetNumber="1">
+      <DESCRIPTION>Pellentesque habitant morbi tristique senectus</DESCRIPTION>
+      <QUANTITY>25</QUANTITY>
+      <TOTAL>$6,250.00</TOTAL>
+      <UNIT_PRICE>$250.00</UNIT_PRICE>
+    </RECORDSET>
+    <RECORDSET RecordsetNumber="2">
+      <DESCRIPTION>Et netus et malesuada fames ac turpis egestas</DESCRIPTION>
+      <QUANTITY>8</QUANTITY>
+      <TOTAL>$1.920.00</TOTAL>
+      <UNIT_PRICE>$240.00</UNIT_PRICE>
+    </RECORDSET>
+    <RECORDSET RecordsetNumber="3">
+      <DESCRIPTION>Sed velit urna, interdum vel</DESCRIPTION>
+      <QUANTITY>6</QUANTITY>
+      <TOTAL>$3,000.00</TOTAL>
+      <UNIT_PRICE>$500.00</UNIT_PRICE>
+    </RECORDSET>
+  </GDK_ROW>
+  <GDK_ROW RowNumber="3">
+    <Client_City>INDIAN HILLS</Client_City>
+    <Client_Name>Wanda C Ortega</Client_Name>
+    <Client_Street_Address>1740  Counts Lane</Client_Street_Address>
+    <Client_ZIP_Code>80454</Client_ZIP_Code>
+    <Company_City>Poznań</Company_City>
+    <Company_Email>biuro@primesoft.pl</Company_Email>
+    <Company_Name>Primesoft Polska</Company_Name>
+    <Company_Phone>61 833 17 72</Company_Phone>
+    <Company_Street_Address>Ul. Piątkowska 161</Company_Street_Address>
+    <Company_ZIP_Code>60-650</Company_ZIP_Code>
+    <Invoice_date>17.06.2018</Invoice_date>
+    <Invoice_number>2403434</Invoice_number>
+    <SALES_TAX>$893.60</SALES_TAX>
+    <SHIPPING>$1500.00</SHIPPING>
+    <SUBTOTAL>$12,670.00</SUBTOTAL>
+    <TOTAL>$12,563.60</TOTAL>
+    <RECORDSET RecordsetNumber="1">
+      <DESCRIPTION>Pellentesque habitant morbi tristique senectus</DESCRIPTION>
+      <QUANTITY>25</QUANTITY>
+      <TOTAL>$6,250.00</TOTAL>
+      <UNIT_PRICE>$250.00</UNIT_PRICE>
+    </RECORDSET>
+    <RECORDSET RecordsetNumber="2">
+      <DESCRIPTION>Et netus et malesuada fames ac turpis egestas</DESCRIPTION>
+      <QUANTITY>8</QUANTITY>
+      <TOTAL>$1.920.00</TOTAL>
+      <UNIT_PRICE>$240.00</UNIT_PRICE>
+    </RECORDSET>
+    <RECORDSET RecordsetNumber="3">
+      <DESCRIPTION>Sed velit urna, interdum vel</DESCRIPTION>
+      <QUANTITY>6</QUANTITY>
+      <TOTAL>$3,000.00</TOTAL>
+      <UNIT_PRICE>$500.00</UNIT_PRICE>
+    </RECORDSET>
+  </GDK_ROW>
+</GDK>
