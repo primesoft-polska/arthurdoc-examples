@@ -39,7 +39,17 @@ namespace ArthurDoc.Client
 
                 NewJobRequestBase data;
 
-                if (requestParameters.IsJson)
+                if (requestParameters.IsXml)
+                {
+                    data = new NewJobRequestJson
+                    {
+                        Name = requestName,
+                        TemplateId = requestParameters.TemplateGuid,
+                        File = requestParameters.XmlBody,
+                        MergeFiles = mergeFile
+                    };
+                }
+                else if (requestParameters.IsJson)
                 {
                     data = new NewJobRequestJson
                     {

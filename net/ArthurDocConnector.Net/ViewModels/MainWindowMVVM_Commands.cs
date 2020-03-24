@@ -58,7 +58,7 @@ namespace ArthurDocConnector.ViewModels
             OpenFileDialog ofd = new OpenFileDialog
             {
                 Multiselect = false,
-                Filter = "Arkusz excel (*.xlsx, *.xls)|*.xlsx;*.xls| Plik JSON (*.json) | *.json",
+                Filter = "Plik XML (*.xml)|*.xml| Arkusz excel (*.xlsx, *.xls)|*.xlsx;*.xls| Plik JSON (*.json) | *.json",
                 FilterIndex = 1
             };
 
@@ -67,9 +67,17 @@ namespace ArthurDocConnector.ViewModels
             if (result.HasValue)
             {
                 IsFileLoaded = result.Value;
-                if (ofd.FileName.Contains(".json"))
+                if (ofd.FileName.Contains(".xml"))
+                {
+                    _requestParameters.IsXml = true;
+                    _requestParameters.IsJson = false;
+                    _requestParameters.XmlBody = File.ReadAllText(ofd.FileName);
+
+                }
+                else if (ofd.FileName.Contains(".json"))
                 {
                     _requestParameters.IsJson = true;
+                    _requestParameters.IsXml = false;
                     _requestParameters.JsonBody = JsonConvert.DeserializeObject<JObject>(File.ReadAllText(ofd.FileName));
 
                 }
@@ -78,6 +86,7 @@ namespace ArthurDocConnector.ViewModels
                     if (result.Value)
                     {
                         _requestParameters.IsJson = false;
+                        _requestParameters.IsXml = false;
                         _requestParameters.FileContent = File.ReadAllBytes(ofd.FileName);
                     }
                 }
